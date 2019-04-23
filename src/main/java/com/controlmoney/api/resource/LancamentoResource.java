@@ -68,6 +68,7 @@ public class LancamentoResource {
 		final Lancamento lancamentoSalvo = lancamentoService.save(lancamento);
 
 		publisher.publishEvent(new RecursoCriadoEvent(this, response, lancamentoSalvo.getCodigo()));
+		// System.out.println("teste");
 
 		return ResponseEntity.status(HttpStatus.CREATED).body(lancamentoSalvo);
 
