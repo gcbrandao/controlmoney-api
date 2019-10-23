@@ -4,12 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.algaworks.algamoney-api</groupId>
-	<artifactId>algamoney-api</artifactId>
+	<groupId>com.algaworks.controlmoney-api</groupId>
+	<artifactId>controlmoney-api</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>algamoney-api</name>
+	<name>controlmoney-api</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
